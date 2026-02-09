@@ -1,6 +1,8 @@
 # Alexandr Croitor
 
-Backend-разработчик, энтузиаст Open Source и вечный узник .config
+┌──────────────────────────────────────┐
+│  Backend • Systems • NixOS • OSS     │
+└──────────────────────────────────────┘
 
 > _"I use NixOS btw"_
 
@@ -25,13 +27,13 @@ Backend-разработчик, энтузиаст Open Source и вечный �
 
 ```
 if it works, don't touch it
-unless you use NixOS, then touch everything
-and put it in a .nix file
+if it breaks — understand why
+if it's NixOS — encode the knowledge
 ```
 
 </details>
 
-## Tech Stacj
+## Tech Stack
 
 **Основной стек:**
 
@@ -93,3 +95,5 @@ communication:
 *"Talk is cheap. Show me the code." — Linus Torvalds*
 
 </div>
+
+<sub>Built declaratively. Rebuilt often.</sub>
