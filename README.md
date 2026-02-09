@@ -1,6 +1,6 @@
 # Alexandr Croitor
 
-> Backend / Systems • NixOS • Open Source • Neovim survivor
+Backend / Systems • NixOS • Open Source • Neovim survivor
 
 > _"I use NixOS btw"_
 
