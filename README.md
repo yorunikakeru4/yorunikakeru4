@@ -1,8 +1,6 @@
 # Alexandr Croitor
 
-┌──────────────────────────────────────┐
-│  Backend • Systems • NixOS • OSS     │
-└──────────────────────────────────────┘
+> Backend / Systems • NixOS • Open Source • Neovim survivor
 
 > _"I use NixOS btw"_
 
