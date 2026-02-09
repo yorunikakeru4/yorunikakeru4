@@ -4,6 +4,8 @@ Backend-разработчик, энтузиаст Open Source и вечный �
 
 > _"I use NixOS btw"_
 
+---
+
 ## $ whoami
 
 <img src="./images/photo_2026-02-04_13-45-31.jpg" width="300">
