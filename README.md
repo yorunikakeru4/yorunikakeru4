@@ -1,7 +1,5 @@
 # Alexandr Croitor
 
-![Stats](https://github-readme-stats.vercel.app/api?username=yorunikakeru4&show_icons=true&theme=gruvbox)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yorunikakeru4&layout=compact)
 ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 
 ![NixOS](https://img.shields.io/badge/NixOS-5277C3?logo=nixos&logoColor=white)
