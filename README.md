@@ -1,14 +1,19 @@
 ![Rust](https://img.shields.io/badge/Rust-b16286?logo=rust&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Fish](https://img.shields.io/badge/fish-4C9CDA?logo=fish&logoColor=white)
 ![NixOS](https://img.shields.io/badge/NixOS-5277C3?logo=nixos&logoColor=white)
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=white)
+![Podman](https://img.shields.io/badge/Podman-32C1F8?logo=podman&logoColor=white)
 
 # Alexandr Croitor
 
 
 Backend / Systems • NixOS • Open Source • Neovim survivor
 
+<div align="center">
 > _"I use NixOS btw"_
+</div>
 
 ---
 
