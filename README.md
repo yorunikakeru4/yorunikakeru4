@@ -3,6 +3,7 @@
 ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 
 ![NixOS](https://img.shields.io/badge/NixOS-5277C3?logo=nixos&logoColor=white)
+
 Backend / Systems • NixOS • Open Source • Neovim survivor
 
 > _"I use NixOS btw"_
