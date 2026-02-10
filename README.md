@@ -1,5 +1,10 @@
 # Alexandr Croitor
 
+![Stats](https://github-readme-stats.vercel.app/api?username=yorunikakeru4&show_icons=true&theme=gruvbox)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yorunikakeru4&layout=compact)
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
+
+![NixOS](https://img.shields.io/badge/NixOS-5277C3?logo=nixos&logoColor=white)
 Backend / Systems • NixOS • Open Source • Neovim survivor
 
 > _"I use NixOS btw"_
@@ -41,7 +46,6 @@ if it's NixOS — encode the knowledge
 | **Nix** |3/5 | Декларативно описываю всё, от системы до dev окружений |
 | **Python** | 3/5 | От скриптов до веб-приложений |
 | **JavaScript** | 3/5 | Потому что фронтенд тоже нужен иногда |
-| **PHP** | 2.99999/5 | Legacy поддержка и классика веба |
 
 
 ### В процессе изучения
