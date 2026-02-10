@@ -1,5 +1,6 @@
 # Alexandr Croitor
 
+![Rust](https://img.shields.io/badge/Go-00ADD8?logo=rust&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 ![NixOS](https://img.shields.io/badge/NixOS-5277C3?logo=nixos&logoColor=white)
 
