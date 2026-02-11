@@ -10,9 +10,7 @@
 
 Backend / Systems • NixOS • Open Source • Neovim survivor
 
-<div align="center">
 > _"I use NixOS btw"_
-</div>
 
 ---
 
