@@ -5,7 +5,7 @@
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=white)
 ![Podman](https://img.shields.io/badge/Podman-32C1F8?logo=podman&logoColor=white)
 
-# Alexandr Croitor
+# Alexandr Croitor (Hello :>)
 
 Backend / Systems • NixOS • Open Source • Neovim survivor
 
