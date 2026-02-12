@@ -7,7 +7,6 @@
 
 # Alexandr Croitor
 
-
 Backend / Systems • NixOS • Open Source • Neovim survivor
 
 > _"I use NixOS btw"_
@@ -22,12 +21,13 @@ Backend / Systems • NixOS • Open Source • Neovim survivor
 
 - Проектирование архитектуры приложений с нуля
 - Интересуюсь backend-разработкой и системным программированием
-- Фанат Open Source софта
-    - Пользователь NixOS (посмотрите мой GitHub/Codeberg для nix-конфигураций)
-    - Контрибьютор в нескольких Open Source проектах
-    - Neovim как философия продуктивности и эээ... (я не знаю, как из него выйти)
+- Контрибьютор Open Source софта
+  - Пользователь NixOS (посмотрите мой GitHub/Codeberg для nix-конфигураций)
+  - Контрибьютор в нескольких Open Source проектах
+  - Neovim как философия продуктивности и эээ... (я не знаю, как из него выйти)
 
 ---
+
 <details>
 <summary><b>Философия разработки</b></summary>
 
@@ -43,14 +43,12 @@ if it's NixOS — encode the knowledge
 
 **Основной стек:**
 
-
 | Язык/Технология | Уровень |
-|-----------------|---------|
-| **Golang** | 4/5 |
-| **Nix** | 3/5 | 
-| **Python** | 3/5 | 
-| **JavaScript** | 3/5 |
-
+| --------------- | ------- |
+| **Golang**      | 4/5     |
+| **Nix**         | 3/5     |
+| **Python**      | 3/5     |
+| **JavaScript**  | 3/5     |
 
 ### В процессе изучения
 
@@ -68,19 +66,20 @@ fn main() {
 - **Elixir** — хочу в мир распределённых систем и BEAM VM
 - **Zig** — для низкоуровневых задач и полного контроля
 
---- 
+---
+
 ## Рабочее окружение
 
 ### Основной сетап
 
 ```
-OS: NixOS 
+OS: NixOS
 Shell: fish + Starship
 Terminal: kitty
 WM: Hyprland
 ```
 
-### nvim 
+### nvim
 
 [dotfiles](https://codeberg.org/yorunikakeru/dotfiles/src/branch/main/nvim)
 
@@ -97,7 +96,7 @@ communication:
 
 **Made with Neovim** (естественно)
 
-*"Talk is cheap. Show me the code." — Linus Torvalds*
+_"Talk is cheap. Show me the code." — Linus Torvalds_
 
 </div>
 
