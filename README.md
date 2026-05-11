@@ -1,5 +1,5 @@
-![Rust](https://img.shields.io/badge/Rust-b16286?logo=rust&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-b16286?logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![NixOS](https://img.shields.io/badge/NixOS-5277C3?logo=nixos&logoColor=white)
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=white)
@@ -13,31 +13,13 @@ Backend / Systems • NixOS • Open Source • Neovim survivor
 
 ---
 
-## $ whoami
-
-<img src="./images/photo_2026-02-04_13-45-31.jpg" width="300">
-
 ### О себе
 
 - Проектирование архитектуры приложений с нуля
 - Интересуюсь backend-разработкой и системным программированием
 - Контрибьютор Open Source софта
-  - Пользователь NixOS (посмотрите мой GitHub/Codeberg для nix-конфигураций)
+  - Пользователь NixOS (посмотрите мой Codeberg для nix-конфигураций)
   - Контрибьютор в нескольких Open Source проектах
-  - Neovim как философия продуктивности и эээ... (я не знаю, как из него выйти)
-
----
-
-<details>
-<summary><b>Философия разработки</b></summary>
-
-```
-if it works, don't touch it
-if it breaks — understand why
-if it's NixOS — encode the knowledge
-```
-
-</details>
 
 ## Tech Stack
 
@@ -46,9 +28,11 @@ if it's NixOS — encode the knowledge
 | Язык/Технология | Уровень |
 | --------------- | ------- |
 | **Golang**      | 4/5     |
-| **Nix**         | 3/5     |
 | **Python**      | 3/5     |
 | **JavaScript**  | 3/5     |
+| **Nix**         | 3/5     |
+| **Elixir**      | 2/5     |
+| **Rust**        | 1/5     |
 
 ### В процессе изучения
 
@@ -59,11 +43,15 @@ fn main() {
     println!("  - Системного программирования");
     println!("  - Того чтобы бороться с borrow checker");
 }
+
+```
+
+```elixir
+"I`m so functional"|> IO.puts()
 ```
 
 ### В планах
 
-- **Elixir** — хочу в мир распределённых систем и BEAM VM
 - **Zig** — для низкоуровневых задач и полного контроля
 
 ---
@@ -89,7 +77,6 @@ communication:
   email: "kroitorsasha06@gmail.com"
   telegram: "@TerziAlexandr"
   preferred: "email для серьёзных вопросов"
-  response_time: "отвечу в течение 10 лет"
 ```
 
 <div align="center">
