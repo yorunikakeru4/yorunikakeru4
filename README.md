@@ -61,23 +61,6 @@ I build backend services, database-oriented tools, and Linux development environ
 | Zig        | Low-level programming with explicit control              |
 | Haskell    | Pure functional                                          |
 
-## Codeberg
-
-I keep my NixOS and Neovim configuration on Codeberg:
-
-- [Codeberg profile](https://codeberg.org/yorunikakeru)
-- [NixOS configuration](https://codeberg.org/yorunikakeru/nixos)
-- [Neovim configuration](https://codeberg.org/yorunikakeru/nvim)
-
-## Environment
-
-```text
-OS:       NixOS
-Terminal: alacritty
-WM:       Niri
-Editor:   Neovim
-```
-
 ## Contact
 
 ```yaml
