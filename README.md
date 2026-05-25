@@ -5,86 +5,86 @@
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=white)
 ![Podman](https://img.shields.io/badge/Podman-32C1F8?logo=podman&logoColor=white)
 
-# Alexandr Croitor (Hello :>)
+<h1 align="center">Alexandr Croitor</h1>
 
-Backend / Systems • NixOS • Open Source • Neovim survivor
+<p align="center">
+  Backend and systems-oriented developer focused on Go, Linux, NixOS, databases, and practical developer tooling.
+</p>
 
-> _"I use NixOS btw"_
+<p align="center">
+  <a href="https://github.com/yorunikakeru4">GitHub</a>
+  ·
+  <a href="https://codeberg.org/yorunikakeru">Codeberg</a>
+  ·
+  <a href="https://codeberg.org/yorunikakeru/nixos">NixOS</a>
+  ·
+  <a href="https://codeberg.org/yorunikakeru/nvim">Neovim</a>
+  ·
+  <a href="mailto:kroitorsasha06@gmail.com">Email</a>
+</p>
 
----
+## About
 
-### О себе
+I build backend services, database-oriented tools, and Linux development environments. My main interests are service architecture, data systems, containerization, reproducible infrastructure, and open source software.
 
-- Проектирование архитектуры приложений с нуля
-- Интересуюсь backend-разработкой и системным программированием
-- Контрибьютор Open Source софта
-  - Пользователь NixOS (посмотрите мой Codeberg для nix-конфигураций)
-  - Контрибьютор в нескольких Open Source проектах
+- Backend development with Go, Python, PHP, and JavaScript
+- Systems and tooling work with Rust, C++, Linux, Nix, and shell environments
+- Database tooling and synchronization patterns
+- Open source contribution and self-hosted tooling
+
+## Selected Projects
+
+| Project                                                   | Stack                 | Description                                                         |
+| --------------------------------------------------------- | --------------------- | ------------------------------------------------------------------- |
+| [lazysql](https://github.com/yorunikakeru4/lazysql)       | Rust, PostgreSQL, TUI | Terminal UI for exploring PostgreSQL/MySQL databases.               |
+| [db_sync](https://github.com/yorunikakeru4/db_sync)       | Go, Kafka, CQRS       | Kafka-based synchronization experiment around CQRS-style data flow. |
+| [flake](https://github.com/yorunikakeru4/flake)           | Nix, NixOS            | Reproducible build and development environment configuration.       |
+| [datadriven](https://github.com/yorunikakeru4/datadriven) | C++                   | Data-oriented C++ framework for tests.                              |
 
 ## Tech Stack
 
-**Основной стек:**
+**Primary**
 
-| Язык/Технология | Уровень |
-| --------------- | ------- |
-| **Golang**      | 4/5     |
-| **Python**      | 3/5     |
-| **JavaScript**  | 3/5     |
-| **Nix**         | 3/5     |
-| **Elixir**      | 2/5     |
-| **Rust**        | 1/5     |
+| Area               | Technologies                                  |
+| ------------------ | --------------------------------------------- |
+| Backend            | Go, Python, PHP, JavaScript                   |
+| Data and messaging | PostgreSQL, Kafka, CQRS patterns              |
+| Systems            | Linux, NixOS, Rust, C++                       |
+| Infrastructure     | Nix flakes, Podman, declarative configuration |
 
-### В процессе изучения
+**Currently improving**
 
-```rust
-fn main() {
-    println!("Изучаю Rust для:");
-    println!("  - Безопасности памяти без GC");
-    println!("  - Системного программирования");
-    println!("  - Того чтобы бороться с borrow checker");
-}
+| Technology | Focus                                                    |
+| ---------- | -------------------------------------------------------- |
+| Rust       | Memory-safe systems programming and CLI/TUI tooling      |
+| Elixir     | Functional programming and concurrent application design |
+| Zig        | Low-level programming with explicit control              |
+| Haskell    | Pure functional                                          |
 
+## Codeberg
+
+I keep my NixOS and Neovim configuration on Codeberg:
+
+- [Codeberg profile](https://codeberg.org/yorunikakeru)
+- [NixOS configuration](https://codeberg.org/yorunikakeru/nixos)
+- [Neovim configuration](https://codeberg.org/yorunikakeru/nvim)
+
+## Environment
+
+```text
+OS:       NixOS
+Terminal: alacritty
+WM:       Niri
+Editor:   Neovim
 ```
 
-```elixir
-"I`m so functional"|> IO.puts()
-```
-
-### В планах
-
-- **Zig** — для низкоуровневых задач и полного контроля
-
----
-
-## Рабочее окружение
-
-### Основной сетап
-
-```
-OS: NixOS
-Shell: fish + Starship
-Terminal: kitty
-WM: Hyprland
-```
-
-### nvim
-
-[dotfiles](https://codeberg.org/yorunikakeru/dotfiles/src/branch/main/nvim)
+## Contact
 
 ```yaml
-communication:
-  phone: "+373 60 456 655"
-  email: "kroitorsasha06@gmail.com"
-  telegram: "@TerziAlexandr"
-  preferred: "email для серьёзных вопросов"
+email: "kroitorsasha06@gmail.com"
+telegram: "@TerziAlexandr"
+phone: "+373 60 456 655"
+preferred: "email for serious inquiries"
 ```
-
-<div align="center">
-
-**Made with Neovim** (естественно)
-
-_"Talk is cheap. Show me the code." — Linus Torvalds_
-
-</div>
 
 <sub>Built declaratively. Rebuilt often.</sub>
