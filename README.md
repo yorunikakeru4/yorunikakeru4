@@ -71,13 +71,6 @@ I build backend services, database-oriented tools, and Linux development environ
 | Zig        | Low-level programming with explicit control              |
 | Haskell    | Pure functional and verified configuration               |
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yorunikakeru4&theme=codeSTACKr" alt="Streak" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yorunikakeru4&theme=codeSTACKr" alt="Top Languages by Repo" />
-</p>
-
 ## Contact
 
 ```yaml
@@ -86,5 +79,12 @@ telegram: "@TerziAlexandr"
 phone: "+373 60 456 655"
 preferred: "email for serious inquiries"
 ```
+
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yorunikakeru4&theme=codeSTACKr" alt="Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yorunikakeru4&theme=codeSTACKr" alt="Top Languages by Repo" />
+</p>
 
 <sub>Built declaratively. Rebuilt often.</sub>
