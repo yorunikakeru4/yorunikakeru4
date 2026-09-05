@@ -1,5 +1,6 @@
 ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-b16286?logo=rust&logoColor=white)
+![Haskell](https://img.shields.io/badge/Haskell-5D4F85?logo=haskell&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![NixOS](https://img.shields.io/badge/NixOS-5277C3?logo=nixos&logoColor=white)
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=white)
@@ -12,8 +13,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yorunikakeru4">GitHub</a>
-  ·
   <a href="https://codeberg.org/yorunikakeru">Codeberg</a>
   ·
   <a href="https://codeberg.org/yorunikakeru/nixos">NixOS</a>
@@ -28,11 +27,39 @@
 I build backend services, database-oriented tools, and Linux development environments. My main interests are service architecture, data systems, containerization, reproducible infrastructure, and open source software.
 
 - Backend development with Go, Python, PHP, and JavaScript
-- Systems and tooling work with Rust, C++, Linux, Nix, and shell environments
+- Systems and tooling work with Rust, C++, Haskell, Linux, Nix, and shell environments
 - Database tooling and synchronization patterns
-- Open source contribution and self-hosted tooling
+- Declarative OS configuration and reproducible builds
 
-## Selected Projects
+## Featured Project: FrogOS
+
+[FrogOS](https://github.com/yorunikakeru4/FrogOS) is a fully declarative, self-describing operating system configuration toolchain. Configuration is written as a typed Haskell EDSL, verified and compiled into an intermediate representation, then planned and applied through a supervised actor runtime.
+
+```text
+configuration.frog (Haskell DSL)
+        ↓
+   verified IR (JSON)
+        ↓
+ Planner + Executor (Rust/Haskell)
+        ↓
+   system state change
+```
+
+This monorepo is split into focused components:
+
+| Repository                                                     | Language | Role                                                  |
+| -------------------------------------------------------------- | -------- | ----------------------------------------------------- |
+| [FrogOS](https://github.com/yorunikakeru4/FrogOS)              | Rust     | Top-level runtime, orchestration, CLI and daemon      |
+| [DSL](https://github.com/yorunikakeru4/DSL)                    | Haskell  | Configuration language compiling to verified IR       |
+| [IR](https://github.com/yorunikakeru4/IR)                      | Haskell  | Intermediate representation types and schema          |
+| [Planner](https://github.com/yorunikakeru4/Planner)            | Haskell  | Stateless planning core with Rust FFI actor wrapper   |
+| [Supervisor](https://github.com/yorunikakeru4/Supervisor)      | Rust     | Actor lifecycle management with `rest_for_one`        |
+| [Executor](https://github.com/yorunikakeru4/Executor)          | Rust     | Plan execution with rollback                          |
+| [Toad](https://github.com/yorunikakeru4/Toad)                  | Rust     | System observation and state publishing               |
+| [e2e](https://github.com/yorunikakeru4/e2e)                    | Nix      | End-to-end interactive test environment               |
+| [frogos-report](https://github.com/yorunikakeru4/frogos-report) | LaTeX   | Architecture report and formal comparison             |
+
+## Other Projects
 
 | Project                                                   | Stack                 | Description                                                         |
 | --------------------------------------------------------- | --------------------- | ------------------------------------------------------------------- |
@@ -49,7 +76,7 @@ I build backend services, database-oriented tools, and Linux development environ
 | ------------------ | --------------------------------------------- |
 | Backend            | Go, Python, PHP, JavaScript                   |
 | Data and messaging | PostgreSQL, Kafka, CQRS patterns              |
-| Systems            | Linux, NixOS, Rust, C++                       |
+| Systems            | Linux, NixOS, Rust, C++, Haskell              |
 | Infrastructure     | Nix flakes, Podman, declarative configuration |
 
 **Currently improving**
@@ -59,7 +86,13 @@ I build backend services, database-oriented tools, and Linux development environ
 | Rust       | Memory-safe systems programming and CLI/TUI tooling      |
 | Elixir     | Functional programming and concurrent application design |
 | Zig        | Low-level programming with explicit control              |
-| Haskell    | Pure functional                                          |
+| Haskell    | Pure functional and verified configuration               |
+
+## GitHub Stats
+
+| Streak                         | Languages                        |
+| ------------------------------ | -------------------------------- |
+| ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=yorunikakeru4&theme=codeSTACKr) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yorunikakeru4&layout=compact&theme=codeSTACKr) |
 
 ## Contact
 
