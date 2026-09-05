@@ -31,33 +31,16 @@ I build backend services, database-oriented tools, and Linux development environ
 - Database tooling and synchronization patterns
 - Declarative OS configuration and reproducible builds
 
-## Featured Project: FrogOS
+## Featured Projects
 
-[FrogOS](https://github.com/yorunikakeru4/FrogOS) is a fully declarative, self-describing operating system configuration toolchain. Configuration is written as a typed Haskell EDSL, verified and compiled into an intermediate representation, then planned and applied through a supervised actor runtime.
-
-```text
-configuration.frog (Haskell DSL)
-        ↓
-   verified IR (JSON)
-        ↓
- Planner + Executor (Rust/Haskell)
-        ↓
-   system state change
-```
-
-This monorepo is split into focused components:
-
-| Repository                                                     | Language | Role                                                  |
-| -------------------------------------------------------------- | -------- | ----------------------------------------------------- |
-| [FrogOS](https://github.com/yorunikakeru4/FrogOS)              | Rust     | Top-level runtime, orchestration, CLI and daemon      |
-| [DSL](https://github.com/yorunikakeru4/DSL)                    | Haskell  | Configuration language compiling to verified IR       |
-| [IR](https://github.com/yorunikakeru4/IR)                      | Haskell  | Intermediate representation types and schema          |
-| [Planner](https://github.com/yorunikakeru4/Planner)            | Haskell  | Stateless planning core with Rust FFI actor wrapper   |
-| [Supervisor](https://github.com/yorunikakeru4/Supervisor)      | Rust     | Actor lifecycle management with `rest_for_one`        |
-| [Executor](https://github.com/yorunikakeru4/Executor)          | Rust     | Plan execution with rollback                          |
-| [Toad](https://github.com/yorunikakeru4/Toad)                  | Rust     | System observation and state publishing               |
-| [e2e](https://github.com/yorunikakeru4/e2e)                    | Nix      | End-to-end interactive test environment               |
-| [frogos-report](https://github.com/yorunikakeru4/frogos-report) | LaTeX   | Architecture report and formal comparison             |
+| Repository                                                     | Language | Description                                                  |
+| -------------------------------------------------------------- | -------- | ------------------------------------------------------------- |
+| [FrogOS](https://github.com/yorunikakeru4/FrogOS)              | Rust     | Declarative OS configuration toolchain                        |
+| [DSL](https://github.com/yorunikakeru4/DSL)                    | Haskell  | Configuration language compiling to verified IR               |
+| [Planner](https://github.com/yorunikakeru4/Planner)            | Haskell  | Stateless planning core with Rust FFI actor wrapper           |
+| [Supervisor](https://github.com/yorunikakeru4/Supervisor)      | Rust     | Actor lifecycle management with `rest_for_one`                |
+| [Executor](https://github.com/yorunikakeru4/Executor)          | Rust     | Plan execution with rollback                                  |
+| [Toad](https://github.com/yorunikakeru4/Toad)                  | Rust     | System observation and state publishing                       |
 
 ## Other Projects
 
@@ -90,9 +73,10 @@ This monorepo is split into focused components:
 
 ## GitHub Stats
 
-| Streak                         | Languages                        |
-| ------------------------------ | -------------------------------- |
-| ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=yorunikakeru4&theme=codeSTACKr) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yorunikakeru4&layout=compact&theme=codeSTACKr) |
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yorunikakeru4&theme=codeSTACKr" alt="Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yorunikakeru4&theme=codeSTACKr" alt="Top Languages by Repo" />
+</p>
 
 ## Contact
 
